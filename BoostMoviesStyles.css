@@ -1,0 +1,66 @@
+body{
+    height: 10000px;  
+    background-color: #000;
+}
+img{
+    width: 1rem;
+}
+
+.dropdown-menu{
+    background-color: rgb(90, 77, 236);  
+}
+
+.dropdown-item{
+    color: bisque;
+
+}
+
+li{
+    color: bisque;
+}
+
+.btn{
+    background-color: transparent;
+    color: white;
+    border-radius: 10px/100px;
+    border-color: blue;
+    
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+#card-container{
+
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    width: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #000;
+    color: white;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-right: 10px;
+    flex-basis: 10rem;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+.card-body{
+    position: relative;
+}
+.card-titlediv{
+    position: absolute;
+    bottom: 17rem;
+    color: white;
+}
